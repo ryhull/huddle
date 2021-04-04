@@ -7,11 +7,10 @@
   <link rel="stylesheet" href="style.css">
   <title>Huddle landing page with alternating feature blocks</title>
   <style>
-    /*Putting a border over the current page's nav link*/
+    /*Style the active page's nav link*/
     header li:nth-of-type(1) a {
-      border-top:solid 3px black;
-      border-bottom:solid 3px black;
-      border-radius:12%;
+      border-top:3px solid black;
+      color:#b13fff;
     }
   </style>
 </head>
@@ -31,17 +30,68 @@
         <h1>Build The Community Your Fans Will Love</h1>
         <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
           Create connections with your users as you engage in genuine discussion.</p>
-        <a href="#">Get Started For Free!</a>
+        <a class="largeButton" href="#">Get Started For Free!</a>
       </div>
       <img src="images/illustration-mockups.svg" alt="Mockups">
     </div>
   </header>
   <main>
-
+    <div class="infoCard">
+      <div>
+        <h3>Grow Together</h3>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
+      <div>
+        <img src="images/illustration-grow-together.svg" alt="illustration-grow-together">
+      </div>
+    </div>
+    <div class="infoCard">
+      <div>
+        <img src="images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation">
+      </div>
+      <div>
+        <h3>Flowing Conversations</h3>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      </div>
+    </div>
+    <div class="infoCard">
+      <div>
+        <h3>Your Users</h3>
+        <p>It takes no time at all to integrate Hiddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      </div>
+      <div>
+        <img src="images/illustration-your-users.svg" alt="illustration-your-users">
+      </div>
+    </div>
   </main>
-
   <footer>
-
+    <div class="callToAction">
+      <h1>Ready To Build Your Community?</h1>
+      <a class="largeButton" href="#">Get Started For Free</a>
+    </div>
+    <div class="container">
+      <img src="images/logowhite.svg" alt="logo">
+      <div>
+        <p>18 Loremword Avenue, Toronto, ON. A4P 3H6</p>
+        <a href="tel:+1--543-123-4567">+1--543-123-4567</a>
+        <a href="mailto:rusty.shackleford@huddle.com">rusty.shackleford@huddle.com</a>
+      </div>
+      <div>
+        <a href="#">About Us</a>
+        <a href="#">What We Do</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div>
+        <a href="Facebook.com">Facebook</a>
+        <a href="Twitter.com">Twitter</a>
+        <a href="Instagram.com">Instagram</a>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
