@@ -51,14 +51,31 @@
 }
 
 @media screen and (max-width:600px) {
-    .infoCard img {
-        display:none;
+    .infoCard {
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        text-align:center;
+        gap:25px;
     }
 
-    .infoCard {
-        align-items:center;
+    .mobileReverse {
+        display:flex;
+        flex-direction: column-reverse;
     }
+   
     header .container div:nth-of-type(2) {
         margin:2em 1em;
+    }
+
+    footer .container {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size:1.1em;
+    }
+
+    footer img {
+        width:60%; 
     }
 }
