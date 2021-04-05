@@ -20,7 +20,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+### Screenshot of my solution
 
 ![alt text](https://i.imgur.com/9Hc1JoM.png)
 
