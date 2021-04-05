@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot of my solution
 
-![alt text](https://i.imgur.com/9Hc1JoM.png)
+![Screenshot](https://i.imgur.com/0wD8FUr.png)
 
 ### Links
 
