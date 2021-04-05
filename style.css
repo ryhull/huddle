@@ -13,6 +13,10 @@
     padding:0;
 }
 
+.hamburger {
+    display:none;
+}
+
 body {
     width:100%;
     font-family:Open Sans, sans-serif;
@@ -23,7 +27,6 @@ body {
     max-width:1200px;
     width:90%;
 }
-
 
 h1, h3 {
     font-family:Poppins;
@@ -240,6 +243,7 @@ footer .container div {
     display:flex;
     flex-direction: column;
 }
+
 
 @media screen and (max-width: 1400px) {
     .infoCard {
