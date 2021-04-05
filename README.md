@@ -43,6 +43,6 @@ A big thing I began to learn during this project was using and manipulating SVGs
 
 ### Continued development
 
-Moving forward, I want to get more experience with creating mobile versions of pages, as I think the code ended up messy to get everything the way I wanted it after already setting up the regular style sheet.
+Moving forward, I want to get more experience with creating mobile versions of pages, as I think the code ended up messier to get everything the way I wanted it after already setting up the regular style sheet. Maybe building the mobile version first in the next project?
 
-For this specific project, I plan to continue to work on it - make it cleaner, add JavaScript for the mobile menu functionality, and potentially replace the bottom button with an email input form for a fictional newsletter.
+For this specific project, I plan to continue to work on it - clean and organize the CSS, and then potentially replace the footer's button section with an email input form below a newsletter prompt.
