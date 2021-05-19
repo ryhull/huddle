@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-https://slashry.github.io/huddle/
+https://ryhull.github.io/huddle/
 
 ## My process
 
